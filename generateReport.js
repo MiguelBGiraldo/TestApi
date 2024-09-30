@@ -1,4 +1,4 @@
-const reporter = require('cucumber-html-reporter');
+import { generate } from 'cucumber-html-reporter';
 
 const options = {
     theme: 'bootstrap',
@@ -15,5 +15,6 @@ const options = {
         "Executed": "Remote"
     }
 };
-
-reporter.generate(options);
+console.log("Generando...");
+generate(options);
+console.log("Generado...");
