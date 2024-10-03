@@ -4,49 +4,56 @@
     "elements": [
       {
         "description": "",
-        "id": "gestión-de-usuarios;registrar-cuenta",
+        "id": "autenticacion;registrar-cuenta",
         "keyword": "Scenario",
         "line": 3,
         "name": "registrar cuenta",
         "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 277209399
+            }
+          },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
             "name": "que soy un usuario",
             "match": {
-              "location": "file:/home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:10"
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:49"
             },
             "result": {
               "status": "passed",
-              "duration": 6020354
+              "duration": 415700
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "envío una solicitud para agregar un nuevo usuario con nombre \"Kevin\", email \"xxx@example.com\" y contraseña \"xxxx\"",
+            "name": "envío una solicitud para agregar un nuevo usuario con nombre \"xxx\", email \"xxx@example.com\" y contraseña \"xxxx\"",
             "match": {
-              "location": "file:/home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:14"
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 112551324
+              "duration": 22203099
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 6,
-            "name": "recibo una respuesta con un código de estado 200",
+            "name": "recibo una respuesta con usuario y un código de estado 200",
             "match": {
-              "location": "file:/home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:52"
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:77"
             },
             "result": {
-              "status": "failed",
-              "duration": 2103684,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'status')\n    at CustomWorld.<anonymous> (file:///home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:54:19)"
+              "status": "passed",
+              "duration": 95225800
             }
           }
         ],
@@ -55,62 +62,499 @@
       },
       {
         "description": "",
-        "id": "gestión-de-usuarios;loguear-un-usuario",
+        "id": "autenticacion;error-al-registrar-cuenta-con-email-ya-existente",
         "keyword": "Scenario",
         "line": 8,
-        "name": "Loguear un usuario",
+        "name": "Error al registrar cuenta con email ya existente",
         "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 216899
+            }
+          },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 9,
-            "name": "que mi usuario con email \"xxx@example.com\" existe",
+            "name": "que soy un usuario",
             "match": {
-              "location": "file:/home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:33"
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:49"
             },
             "result": {
               "status": "passed",
-              "duration": 697203
+              "duration": 135500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "que mi usuario con email \"xxx@example.com\" existe",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 282700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "envío una solicitud para agregar un nuevo usuario con nombre \"xxx\", email existente \"xxx@example.com\" y contraseña \"xxxx\"",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23129599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "recibo una respuesta con un código de estado 404",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2779599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "autenticacion;loguear-un-usuario",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Loguear un usuario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 238000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "que mi usuario con email \"xxx@example.com\" existe",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 483300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "envío una solicitud para loguear con email \"xxx@example.com\" y contraseña \"xxx\"",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\loginStep.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19634000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "recibo una respuesta con un código de estado 200",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 296700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "recibo una respuesta con un token de autenticación",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\loginStep.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35779899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "autenticacion;error-al-loguear-con-contraseña-incorrecta",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Error al loguear con contraseña incorrecta",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 266600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "que mi usuario con email \"xxx@example.com\" existe",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 168699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "envío una solicitud para loguear con email \"xxx@example.com\" y contraseña \"contraseñaIncorrecta\"",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\loginStep.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14907500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "recibo una respuesta con un código de estado 401",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 290499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "autenticacion;error-al-loguear-con-email-no-registrado",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Error al loguear con email no registrado",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 465499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "que no existe un usuario con email \"noRegistrado@example.com\"",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 167400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "envío una solicitud para loguear con email \"noRegistrado@example.com\" y contraseña \"cualquierContraseña\"",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\loginStep.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15392299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "recibo una respuesta con un código de estado 401",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 239700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "autenticacion;recuperar-clave-correctamente",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Recuperar clave correctamente",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 733000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "que mi usuario con email \"xxx@example.com\" existe",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 190699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "envío una solicitud para recuperar mi clave con email \"xxx@example.com\"",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52750900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "recibo una respuesta con un código de estado 200",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 441399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "autenticacion;recuperar-clave-incorrectamente",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Recuperar clave incorrectamente",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 196200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 36,
+            "name": "que no existe un usuario con email \"noRegistrado@example.com\"",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "envío una solicitud para recuperar mi clave con email \"noRegistrado@example.com\"",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:180"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14662400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "recibo una respuesta con un código de estado 404",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 236699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "autenticacion",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Autenticacion",
+    "tags": [],
+    "uri": "features\\autenticacion.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "gestión-de-usuarios;actualizar-mi-cuenta",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Actualizar mi cuenta",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 173599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que soy un usuario autenticado",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 348500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "envío una solicitud para actualizar el nombre de mi usuario a \"usuarioActualizado\"",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34528999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "recibo una respuesta con usuario y un código de estado 200",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 324000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "gestión-de-usuarios;error-al-actualizar-mi-cuenta-sin-autenticación",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Error al actualizar mi cuenta sin autenticación",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 483200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "que soy un usuario no autenticado",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 305299
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 10,
-            "name": "envío una solicitud para loguear con email \"xxx@example.com\" y contraseña \"xxx\"",
+            "name": "envío una solicitud para actualizar el nombre de mi usuario a \"usuarioActualizado\" sin token",
             "match": {
-              "location": "file:/home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:37"
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:96"
             },
             "result": {
               "status": "passed",
-              "duration": 23731879
+              "duration": 10729400
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 11,
-            "name": "recibo una respuesta con un código de estado 200",
+            "name": "recibo una respuesta con un código de estado 401",
             "match": {
-              "location": "file:/home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:52"
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:67"
             },
             "result": {
-              "status": "failed",
-              "duration": 936358,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'status')\n    at CustomWorld.<anonymous> (file:///home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:54:19)"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "recibo una respuesta con un token de autenticación",
-            "match": {
-              "location": "file:/home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:57"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 499500
             }
           }
         ],
@@ -119,62 +563,114 @@
       },
       {
         "description": "",
-        "id": "gestión-de-usuarios;actualizar-mi-cuenta",
+        "id": "gestión-de-usuarios;obtener-un-usuario-por-su-id-exitosamente",
         "keyword": "Scenario",
-        "line": 14,
-        "name": "Actualizar mi cuenta",
+        "line": 13,
+        "name": "Obtener un usuario por su id exitosamente",
         "steps": [
           {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 15,
-            "name": "que soy un usuario autenticado",
-            "match": {
-              "location": "file:/home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:64"
-            },
+            "keyword": "Before",
+            "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 733450
+              "duration": 338600
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "line": 16,
-            "name": "estoy autenticado",
+            "keyword": "Given ",
+            "line": 14,
+            "name": "que soy un usuario autenticado",
             "match": {
-              "location": "file:/home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:94"
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:89"
             },
             "result": {
-              "status": "failed",
-              "duration": 6919038,
-              "error_message": "AssertionError: expected undefined to exist\n    at CustomWorld.<anonymous> (file:///home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:97:19)"
+              "status": "passed",
+              "duration": 191999
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 17,
-            "name": "envío una solicitud para actualizar el nombre de mi usuario a \"usuarioActualizado\"",
+            "line": 15,
+            "name": "envío la solicitud para obtener un usuario con id existente",
             "match": {
-              "location": "file:/home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:69"
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:197"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 29334900
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 18,
-            "name": "recibo una respuesta con un código de estado 200",
+            "line": 16,
+            "name": "recibo una respuesta con usuario y un código de estado 200",
             "match": {
-              "location": "file:/home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:52"
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:77"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 435599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "gestión-de-usuarios;obtener-un-usuario-por-su-id-incorrectamente",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Obtener un usuario por su id incorrectamente",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 202499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "que soy un usuario autenticado",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 214199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "envío la solicitud para obtener un usuario con id no existente",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:218"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18827300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "recibo una respuesta con un código de estado 404",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 389899
             }
           }
         ],
@@ -185,60 +681,112 @@
         "description": "",
         "id": "gestión-de-usuarios;eliminar-mi-cuenta",
         "keyword": "Scenario",
-        "line": 20,
+        "line": 24,
         "name": "Eliminar mi cuenta",
         "steps": [
           {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 21,
-            "name": "que soy un usuario registrado",
-            "match": {
-              "location": "file:/home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:90"
-            },
+            "keyword": "Before",
+            "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1519402
+              "duration": 184400
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "line": 22,
-            "name": "estoy autenticado",
+            "keyword": "Given ",
+            "line": 25,
+            "name": "que soy un usuario autenticado",
             "match": {
-              "location": "file:/home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:94"
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:89"
             },
             "result": {
-              "status": "failed",
-              "duration": 3909315,
-              "error_message": "AssertionError: expected undefined to exist\n    at CustomWorld.<anonymous> (file:///home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:97:19)"
+              "status": "passed",
+              "duration": 226800
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 23,
+            "line": 26,
             "name": "envío la solicitud para eliminar mi cuenta",
             "match": {
-              "location": "file:/home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:101"
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:116"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 27256600
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 24,
-            "name": "recibo una respuesta con un código de estado 200",
+            "line": 27,
+            "name": "recibo una respuesta con usuario y un código de estado 200",
             "match": {
-              "location": "file:/home/michaelalejandroaguirrehoyos/nodeProjects/TestApi/features/stepDefinitions/apiTestStep.js:52"
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:77"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 236599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "gestión-de-usuarios;error-al-eliminar-mi-cuenta-sin-permisos-adecuados",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Error al eliminar mi cuenta sin permisos adecuados",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 152999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "que soy un usuario autenticado",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "envío la solicitud para eliminar mi cuenta con token invalido",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18651899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "recibo una respuesta con un código de estado 401",
+            "match": {
+              "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 360099
             }
           }
         ],
@@ -251,6 +799,6 @@
     "keyword": "Feature",
     "name": "Gestión de usuarios",
     "tags": [],
-    "uri": "features/api_test.feature"
+    "uri": "features\\gestion_usuarios.feature"
   }
 ]
