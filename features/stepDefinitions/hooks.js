@@ -2,7 +2,7 @@ import { Before } from '@cucumber/cucumber';
 import axios from 'axios';
 import {  faker } from '@faker-js/faker';
 
-let api = process.env.RUTA_API;
+let api = process.env.RUTA_API || "http://localhost:8081/api/";
 let userGlobal;
 let tokenGlobal;
 

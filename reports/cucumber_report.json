@@ -13,8 +13,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 1045896700
+              "status": "failed",
+              "duration": 14618900,
+              "error_message": "TypeError [ERR_INVALID_URL]: Invalid URL\n    at new NodeError (node:internal/errors:399:5)\n    at URL.onParseError (node:internal/url:565:9)\n    at new URL (node:internal/url:645:5)\n    at dispatchHttpRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:232:20)\n    at file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:152:5\n    at wrapAsync (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:132:10)\n    at http (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:170:10)\n    at Axios.dispatchRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/dispatchRequest.js:51:10)\n    at Axios._request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:173:33)\n    at Axios.request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CustomWorld.<anonymous> (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/features/stepDefinitions/hooks.js:29:15)\n    at async wrapPromiseWithTimeout (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runHook (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:221:16)\n    at async C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:192:28\n    at async TestCaseRunner.aroundTestStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)"
             }
           },
           {
@@ -26,8 +27,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:49"
             },
             "result": {
-              "status": "passed",
-              "duration": 834900
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -39,8 +40,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:13"
             },
             "result": {
-              "status": "passed",
-              "duration": 74014599
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -52,8 +53,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:77"
             },
             "result": {
-              "status": "passed",
-              "duration": 140793099
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -71,8 +72,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 324200
+              "status": "failed",
+              "duration": 1857599,
+              "error_message": "TypeError [ERR_INVALID_URL]: Invalid URL\n    at new NodeError (node:internal/errors:399:5)\n    at URL.onParseError (node:internal/url:565:9)\n    at new URL (node:internal/url:645:5)\n    at dispatchHttpRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:232:20)\n    at file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:152:5\n    at wrapAsync (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:132:10)\n    at http (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:170:10)\n    at Axios.dispatchRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/dispatchRequest.js:51:10)\n    at Axios._request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:173:33)\n    at Axios.request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CustomWorld.<anonymous> (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/features/stepDefinitions/hooks.js:29:15)\n    at async wrapPromiseWithTimeout (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runHook (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:221:16)\n    at async C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:192:28\n    at async TestCaseRunner.aroundTestStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)"
             }
           },
           {
@@ -84,8 +86,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:49"
             },
             "result": {
-              "status": "passed",
-              "duration": 198100
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -97,8 +99,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:57"
             },
             "result": {
-              "status": "passed",
-              "duration": 318399
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -110,8 +112,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:48"
             },
             "result": {
-              "status": "passed",
-              "duration": 75682399
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -123,8 +125,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:67"
             },
             "result": {
-              "status": "passed",
-              "duration": 4808099
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -142,8 +144,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 373899
+              "status": "failed",
+              "duration": 995999,
+              "error_message": "TypeError [ERR_INVALID_URL]: Invalid URL\n    at new NodeError (node:internal/errors:399:5)\n    at URL.onParseError (node:internal/url:565:9)\n    at new URL (node:internal/url:645:5)\n    at dispatchHttpRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:232:20)\n    at file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:152:5\n    at wrapAsync (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:132:10)\n    at http (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:170:10)\n    at Axios.dispatchRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/dispatchRequest.js:51:10)\n    at Axios._request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:173:33)\n    at Axios.request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CustomWorld.<anonymous> (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/features/stepDefinitions/hooks.js:29:15)\n    at async wrapPromiseWithTimeout (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runHook (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:221:16)\n    at async C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:192:28\n    at async TestCaseRunner.aroundTestStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)"
             }
           },
           {
@@ -155,8 +158,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:57"
             },
             "result": {
-              "status": "passed",
-              "duration": 567399
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -168,8 +171,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\loginStep.js:28"
             },
             "result": {
-              "status": "passed",
-              "duration": 29834899
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -181,8 +184,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:67"
             },
             "result": {
-              "status": "passed",
-              "duration": 448799
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -194,8 +197,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\loginStep.js:52"
             },
             "result": {
-              "status": "passed",
-              "duration": 61611299
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -213,8 +216,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 526000
+              "status": "failed",
+              "duration": 1105100,
+              "error_message": "TypeError [ERR_INVALID_URL]: Invalid URL\n    at new NodeError (node:internal/errors:399:5)\n    at URL.onParseError (node:internal/url:565:9)\n    at new URL (node:internal/url:645:5)\n    at dispatchHttpRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:232:20)\n    at file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:152:5\n    at wrapAsync (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:132:10)\n    at http (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:170:10)\n    at Axios.dispatchRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/dispatchRequest.js:51:10)\n    at Axios._request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:173:33)\n    at Axios.request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CustomWorld.<anonymous> (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/features/stepDefinitions/hooks.js:29:15)\n    at async wrapPromiseWithTimeout (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runHook (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:221:16)\n    at async C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:192:28\n    at async TestCaseRunner.aroundTestStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)"
             }
           },
           {
@@ -226,8 +230,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:57"
             },
             "result": {
-              "status": "passed",
-              "duration": 461799
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -239,8 +243,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\loginStep.js:63"
             },
             "result": {
-              "status": "passed",
-              "duration": 54072100
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -252,8 +256,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:67"
             },
             "result": {
-              "status": "passed",
-              "duration": 982699
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -271,8 +275,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 1459800
+              "status": "failed",
+              "duration": 1092899,
+              "error_message": "TypeError [ERR_INVALID_URL]: Invalid URL\n    at new NodeError (node:internal/errors:399:5)\n    at URL.onParseError (node:internal/url:565:9)\n    at new URL (node:internal/url:645:5)\n    at dispatchHttpRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:232:20)\n    at file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:152:5\n    at wrapAsync (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:132:10)\n    at http (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:170:10)\n    at Axios.dispatchRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/dispatchRequest.js:51:10)\n    at Axios._request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:173:33)\n    at Axios.request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CustomWorld.<anonymous> (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/features/stepDefinitions/hooks.js:29:15)\n    at async wrapPromiseWithTimeout (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runHook (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:221:16)\n    at async C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:192:28\n    at async TestCaseRunner.aroundTestStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)"
             }
           },
           {
@@ -284,8 +289,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:62"
             },
             "result": {
-              "status": "passed",
-              "duration": 736599
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -297,8 +302,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\loginStep.js:78"
             },
             "result": {
-              "status": "passed",
-              "duration": 36736100
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -310,8 +315,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:67"
             },
             "result": {
-              "status": "passed",
-              "duration": 595600
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -329,8 +334,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 1121599
+              "status": "failed",
+              "duration": 924899,
+              "error_message": "TypeError [ERR_INVALID_URL]: Invalid URL\n    at new NodeError (node:internal/errors:399:5)\n    at URL.onParseError (node:internal/url:565:9)\n    at new URL (node:internal/url:645:5)\n    at dispatchHttpRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:232:20)\n    at file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:152:5\n    at wrapAsync (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:132:10)\n    at http (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:170:10)\n    at Axios.dispatchRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/dispatchRequest.js:51:10)\n    at Axios._request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:173:33)\n    at Axios.request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CustomWorld.<anonymous> (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/features/stepDefinitions/hooks.js:29:15)\n    at async wrapPromiseWithTimeout (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runHook (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:221:16)\n    at async C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:192:28\n    at async TestCaseRunner.aroundTestStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)"
             }
           },
           {
@@ -342,8 +348,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:57"
             },
             "result": {
-              "status": "passed",
-              "duration": 271200
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -355,8 +361,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:162"
             },
             "result": {
-              "status": "passed",
-              "duration": 163285199
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -368,8 +374,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:67"
             },
             "result": {
-              "status": "passed",
-              "duration": 639300
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -387,8 +393,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 317600
+              "status": "failed",
+              "duration": 962200,
+              "error_message": "TypeError [ERR_INVALID_URL]: Invalid URL\n    at new NodeError (node:internal/errors:399:5)\n    at URL.onParseError (node:internal/url:565:9)\n    at new URL (node:internal/url:645:5)\n    at dispatchHttpRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:232:20)\n    at file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:152:5\n    at wrapAsync (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:132:10)\n    at http (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:170:10)\n    at Axios.dispatchRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/dispatchRequest.js:51:10)\n    at Axios._request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:173:33)\n    at Axios.request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CustomWorld.<anonymous> (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/features/stepDefinitions/hooks.js:29:15)\n    at async wrapPromiseWithTimeout (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runHook (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:221:16)\n    at async C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:192:28\n    at async TestCaseRunner.aroundTestStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)"
             }
           },
           {
@@ -400,8 +407,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:62"
             },
             "result": {
-              "status": "passed",
-              "duration": 216600
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -413,8 +420,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:180"
             },
             "result": {
-              "status": "passed",
-              "duration": 62439099
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -426,8 +433,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:67"
             },
             "result": {
-              "status": "passed",
-              "duration": 508100
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -456,8 +463,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 385200
+              "status": "failed",
+              "duration": 816200,
+              "error_message": "TypeError [ERR_INVALID_URL]: Invalid URL\n    at new NodeError (node:internal/errors:399:5)\n    at URL.onParseError (node:internal/url:565:9)\n    at new URL (node:internal/url:645:5)\n    at dispatchHttpRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:232:20)\n    at file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:152:5\n    at wrapAsync (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:132:10)\n    at http (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:170:10)\n    at Axios.dispatchRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/dispatchRequest.js:51:10)\n    at Axios._request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:173:33)\n    at Axios.request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CustomWorld.<anonymous> (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/features/stepDefinitions/hooks.js:29:15)\n    at async wrapPromiseWithTimeout (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runHook (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:221:16)\n    at async C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:192:28\n    at async TestCaseRunner.aroundTestStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)"
             }
           },
           {
@@ -469,8 +477,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:89"
             },
             "result": {
-              "status": "passed",
-              "duration": 3071600
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -482,8 +490,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:71"
             },
             "result": {
-              "status": "passed",
-              "duration": 166455500
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -495,8 +503,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:77"
             },
             "result": {
-              "status": "passed",
-              "duration": 394699
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -514,8 +522,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 308600
+              "status": "failed",
+              "duration": 1609300,
+              "error_message": "TypeError [ERR_INVALID_URL]: Invalid URL\n    at new NodeError (node:internal/errors:399:5)\n    at URL.onParseError (node:internal/url:565:9)\n    at new URL (node:internal/url:645:5)\n    at dispatchHttpRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:232:20)\n    at file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:152:5\n    at wrapAsync (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:132:10)\n    at http (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:170:10)\n    at Axios.dispatchRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/dispatchRequest.js:51:10)\n    at Axios._request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:173:33)\n    at Axios.request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CustomWorld.<anonymous> (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/features/stepDefinitions/hooks.js:29:15)\n    at async wrapPromiseWithTimeout (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runHook (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:221:16)\n    at async C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:192:28\n    at async TestCaseRunner.aroundTestStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)"
             }
           },
           {
@@ -527,8 +536,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:53"
             },
             "result": {
-              "status": "passed",
-              "duration": 410199
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -540,8 +549,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:96"
             },
             "result": {
-              "status": "passed",
-              "duration": 23463199
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -553,8 +562,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:67"
             },
             "result": {
-              "status": "passed",
-              "duration": 822499
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -572,8 +581,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 969399
+              "status": "failed",
+              "duration": 1409400,
+              "error_message": "TypeError [ERR_INVALID_URL]: Invalid URL\n    at new NodeError (node:internal/errors:399:5)\n    at URL.onParseError (node:internal/url:565:9)\n    at new URL (node:internal/url:645:5)\n    at dispatchHttpRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:232:20)\n    at file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:152:5\n    at wrapAsync (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:132:10)\n    at http (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:170:10)\n    at Axios.dispatchRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/dispatchRequest.js:51:10)\n    at Axios._request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:173:33)\n    at Axios.request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CustomWorld.<anonymous> (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/features/stepDefinitions/hooks.js:29:15)\n    at async wrapPromiseWithTimeout (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runHook (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:221:16)\n    at async C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:192:28\n    at async TestCaseRunner.aroundTestStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)"
             }
           },
           {
@@ -585,8 +595,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:89"
             },
             "result": {
-              "status": "passed",
-              "duration": 371599
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -598,8 +608,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:197"
             },
             "result": {
-              "status": "passed",
-              "duration": 99334699
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -611,8 +621,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:77"
             },
             "result": {
-              "status": "passed",
-              "duration": 695499
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -630,8 +640,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 589600
+              "status": "failed",
+              "duration": 1013499,
+              "error_message": "TypeError [ERR_INVALID_URL]: Invalid URL\n    at new NodeError (node:internal/errors:399:5)\n    at URL.onParseError (node:internal/url:565:9)\n    at new URL (node:internal/url:645:5)\n    at dispatchHttpRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:232:20)\n    at file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:152:5\n    at wrapAsync (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:132:10)\n    at http (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:170:10)\n    at Axios.dispatchRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/dispatchRequest.js:51:10)\n    at Axios._request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:173:33)\n    at Axios.request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CustomWorld.<anonymous> (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/features/stepDefinitions/hooks.js:29:15)\n    at async wrapPromiseWithTimeout (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runHook (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:221:16)\n    at async C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:192:28\n    at async TestCaseRunner.aroundTestStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)"
             }
           },
           {
@@ -643,8 +654,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:89"
             },
             "result": {
-              "status": "passed",
-              "duration": 373600
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -656,8 +667,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:218"
             },
             "result": {
-              "status": "passed",
-              "duration": 95183699
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -669,8 +680,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:67"
             },
             "result": {
-              "status": "passed",
-              "duration": 500900
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -688,8 +699,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 283900
+              "status": "failed",
+              "duration": 957599,
+              "error_message": "TypeError [ERR_INVALID_URL]: Invalid URL\n    at new NodeError (node:internal/errors:399:5)\n    at URL.onParseError (node:internal/url:565:9)\n    at new URL (node:internal/url:645:5)\n    at dispatchHttpRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:232:20)\n    at file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:152:5\n    at wrapAsync (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:132:10)\n    at http (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:170:10)\n    at Axios.dispatchRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/dispatchRequest.js:51:10)\n    at Axios._request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:173:33)\n    at Axios.request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CustomWorld.<anonymous> (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/features/stepDefinitions/hooks.js:29:15)\n    at async wrapPromiseWithTimeout (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runHook (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:221:16)\n    at async C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:192:28\n    at async TestCaseRunner.aroundTestStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)"
             }
           },
           {
@@ -701,8 +713,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:89"
             },
             "result": {
-              "status": "passed",
-              "duration": 498300
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -714,8 +726,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:116"
             },
             "result": {
-              "status": "passed",
-              "duration": 34743900
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -727,8 +739,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:77"
             },
             "result": {
-              "status": "passed",
-              "duration": 333400
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -746,8 +758,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 337000
+              "status": "failed",
+              "duration": 982099,
+              "error_message": "TypeError [ERR_INVALID_URL]: Invalid URL\n    at new NodeError (node:internal/errors:399:5)\n    at URL.onParseError (node:internal/url:565:9)\n    at new URL (node:internal/url:645:5)\n    at dispatchHttpRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:232:20)\n    at file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:152:5\n    at wrapAsync (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:132:10)\n    at http (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/adapters/http.js:170:10)\n    at Axios.dispatchRequest (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/dispatchRequest.js:51:10)\n    at Axios._request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:173:33)\n    at Axios.request (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CustomWorld.<anonymous> (file:///C:/archivos-locales/Microservicios/Ejercicio2/test-api/features/stepDefinitions/hooks.js:29:15)\n    at async wrapPromiseWithTimeout (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runHook (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:221:16)\n    at async C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:192:28\n    at async TestCaseRunner.aroundTestStep (C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)"
             }
           },
           {
@@ -759,8 +772,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:89"
             },
             "result": {
-              "status": "passed",
-              "duration": 345099
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -772,8 +785,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\usuarioStep.js:139"
             },
             "result": {
-              "status": "passed",
-              "duration": 18619300
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -785,8 +798,8 @@
               "location": "file:\\C:\\archivos-locales\\Microservicios\\Ejercicio2\\test-api\\features\\stepDefinitions\\stepComunies.js:67"
             },
             "result": {
-              "status": "passed",
-              "duration": 399200
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],

@@ -7,7 +7,7 @@ import { fa, faker } from '@faker-js/faker';
 import Ajv from 'ajv';
 const ajv = new Ajv();
 
-let api = process.env.RUTA_API;
+let api = process.env.RUTA_API || "http://localhost:8081/api/";
 let response;
 
 When('envío una solicitud para agregar un nuevo usuario con nombre "xxx", email "xxx@example.com" y contraseña "xxxx"', async function () {

@@ -23,12 +23,15 @@ const responseSchemaToken = {
   }
 
 
-const api = process.env.RUTA_API;
+const api = process.env.RUTA_API || "http://localhost:8081/api/";
 
 When('envío una solicitud para loguear con email "xxx@example.com" y contraseña "xxx"', async function () {
 
     const apiUrl = api + "auth/login";
     const user = this.getUsuario(); 
+
+    console.log("Esta es la url")
+    console.log(apiUrl);
 
     try {
         response = await axios.post(apiUrl, {

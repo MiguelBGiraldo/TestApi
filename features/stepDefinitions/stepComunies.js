@@ -1,9 +1,5 @@
 import { Given, When, Then } from '@cucumber/cucumber';
-import axios from 'axios';
-// import {chai} from 'chai';
 import { expect } from 'chai';
-// import responseSchemaUsuario from '../../schemas/conUsuario';
-// import responseSchema from '../../schemas/schema';
 import Ajv  from 'ajv';
 const ajv = new Ajv();
 
